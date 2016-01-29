@@ -26,4 +26,4 @@ var server = http.createServer(function(req, res) {
 server.listen(port, host);
 console.log('Server running on http://'+host+':'+port);
 
-run_cmd( "grunt", ["default"], function(text) { console.log (text) });
+//run_cmd( "grunt", ["default"], function(text) { console.log (text) });
